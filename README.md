@@ -59,7 +59,7 @@ boolean <- PRAWDA
 
 Oprócz typów prostych język obsługuje tablice. Tablice nie muszą być deklarowane, można od razu przypisywać do ich indeksów.
 
-Domyślnie tablice indeksowane są od indeksu 1. Można to zmienić, przesyłając startowy indeks jako 3. argument do metody `execute` klasy `Interpreter`.
+Domyślnie tablice indeksowane są od indeksu 1. Można to zmienić, przesyłając startowy indeks jako 4. argument do metody `execute` klasy `Interpreter`.
 
 ```
 T[1] <- "pierwsza wartość"
