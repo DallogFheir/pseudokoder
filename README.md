@@ -1,10 +1,10 @@
 # pseudokoder
 
-Interpretator pseudokodu używanego na maturze z informatyki.
+Interpreter pseudokodu używanego na maturze z informatyki.
 
-## Interpretator
+## Interpreter
 
-Interpretator jest reprezentowany przez klasę `Interpreter`. Klasa ta posiada jedną publiczną metodę: `execute`. Przyjmuje ona następujące argumenty:
+Interpreter jest reprezentowany przez klasę `Interpreter`. Klasa ta posiada jedną publiczną metodę: `execute`. Przyjmuje ona następujące argumenty:
 
 - `code`: kod programu jako napis
 - `startingBindings`: początkowo określone zmienne, przekazane jako obiekt zawierający nazwy zmiennych jako klucze, a wartości zmiennych jako wartości; domyślnie pusty obiekt
@@ -14,11 +14,11 @@ Interpretator jest reprezentowany przez klasę `Interpreter`. Klasa ta posiada j
 
 Metoda ta zwraca wyjście programu (wyrażenia wypisane przez polecenie WYPISZ) jako tablicę literałów.
 
-Interpretator może wyrzucić 3 typy błędów:
+Interpreter może wyrzucić 3 typy błędów:
 
 - `SyntaxError`: błąd składni, wykryty na etapie parsowania, np. nieprawidłowa składnia bloku JEŻELI
 - `RuntimeError`: błąd zaistniały na etapie wykonania programu, np. nieistnienie zmiennej
-- `InternalError`: błąd wewnętrzny, wskazujący na niepoprawne działanie interpretatora
+- `InternalError`: błąd wewnętrzny, wskazujący na niepoprawne działanie interpretera
 
 ## Opis języka
 
