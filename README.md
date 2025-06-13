@@ -1,6 +1,8 @@
-# pseudokoder
+# Pseudokoder
 
 Interpreter pseudokodu używanego na maturze z informatyki.
+
+[Wersja webowa](https://github.com/DallogFheir/pseudokoder-web).
 
 ## Interpreter
 
